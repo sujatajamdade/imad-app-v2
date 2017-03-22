@@ -5,11 +5,11 @@ element.innerHTML='new value';
 var img = document.getElementById('madi');
 var marginLeft=0;
 function moveRight(){
-    marginLeft=marginLeft+50;
+    marginLeft=marginLeft+5;
      img.style.marginLeft=marginLeft+'px';
 }
 /*function moveLeft(){
-    marginRight=marginRight+50;
+    marginRight=marginRight+5;
     img.style.marginRight=marginRight+'px';
 }*/
 img.onclick=function(){
