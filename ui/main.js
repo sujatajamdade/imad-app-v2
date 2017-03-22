@@ -13,9 +13,9 @@ function moveRight(){
     img.style.marginRight=marginRight+'px';
 }*/
 img.onclick=function(){
-    img.style.marginLeft='100px';
-    var interval=setInterval(moveRight,100);
-   // img.style.marginRight='100px';
-    //var interval=setInterval(moveLeft,100);
+    //img.style.marginLeft='100px';
+    //var interval=setInterval(moveRight,100);
+   img.style.marginRight='100px';
+    var interval=setInterval(moveLeft,100);
 //};
 };
